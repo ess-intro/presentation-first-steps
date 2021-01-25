@@ -1,0 +1,149 @@
+---
+author: Dirk Eddelbuettel
+title: First Steps with Emacs
+date: 25 Jan 2021
+institute: Part of the ESS-Intro series
+output: binb::metropolis
+fontsize: 12pt
+classoption: compress
+header-includes:
+  - |
+    ```{=latex}
+    \metroset{titleformat=smallcaps,numbering=fraction,background=light}
+    \setbeamercolor{frametitle}{bg=orange}
+    \hypersetup{colorlinks,citecolor=orange,filecolor=orange,linkcolor=orange,urlcolor=orange}
+    \titlegraphic{\includegraphics[width=2cm]{logoESS.png}}
+    ```
+---
+
+
+## Emacs: Getting Started
+
+::::: {.columns}
+::: {.column width="70%"}
+
+\bigskip
+
+### The Perception of Emacs
+
+\bigskip
+
+![](emacs_organ.jpeg)
+
+:::
+::: {.column width="30%"}
+
+\small
+
+### Intimidated?
+
+\medskip
+
+Decades of history.
+
+Bazillion tutorials.
+
+_Opinionated_ views.
+
+\medskip 
+
+### But fear not!
+
+\medskip
+
+_Incremental use_ works.
+
+Learn a few steps. Master them.
+
+Learn some more.
+
+
+
+:::
+::::::
+
+
+## Emacs: Basics Movement
+
+
+::::: {.columns}
+::: {.column width="75%"}
+
+![](emacs_tutorial.png)
+
+:::
+::: {.column width="25%"}
+
+### A really good builtin resource
+
+\bigskip
+
+The Emacs Tutorial
+
+\bigskip
+
+`C-h t`
+
+\bigskip
+
+Type `Ctrl` _and `h`_ and then type `t`.
+
+\medskip
+
+
+:::
+::::::
+
+
+## Emacs: Editing
+
+### Key Advantages
+
+- Particular uses _carry from one mode to another_
+
+- (Maybe my) Favourite example
+
+  - `C-space` to mark a starting
+  - Navigate to end
+  - `M-x comment-region` will uncomment the regions
+  - In \alert{any programming language} or \alert{text format}
+
+- Also cool:  Prefix the same with `C-u` ("undo") to uncomment
+
+## Emacs: Editing
+
+### More Key Advantages
+
+- Indentation is always sensitive to the programming language
+
+- `M-q` formats ("flows") indents a paragraph
+
+- `C-M-\` indents a region in the current language
+
+## Resources
+
+### This is a semi-random collection
+
+\footnotesize 
+
+- Awesome Emacs https://github.com/emacs-tw/awesome-emacs
+
+- Collection of resources (2011) https://batsov.com/articles/2011/11/30/the-ultimate-collection-of-emacs-resources/
+
+- Opinionated Emacs Guide https://m00natic.github.io/emacs/emacs-wiki.html
+
+- Batteries Included https://karthinks.com/software/batteries-included-with-emacs/
+  
+- More Batteries Included   https://karthinks.com/software/more-batteries-included-with-emacs/
+  
+- EmacsLife Video List https://emacslife.com/videos.html  
+
+## Credits
+
+\footnotesize 
+
+### Images and Logos
+
+- ESS logo from the ESS Project site hosted by the R Project at https://ess.r-project.org
+
+- Emacs Organ image from http://anagilemind.net/2015/07/31/a-few-more-agile-related-memes/ah-finally-got-my-emacs-setup-just-how-i-like-it-v2/
