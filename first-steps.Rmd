@@ -101,7 +101,9 @@ Type `Ctrl` _and `h`_ and then type `t`.
 
 - Particular uses _carry from one mode to another_
 
-- (Maybe my) Favourite example
+- There are too many to enumerate but ...
+
+- ... (maybe my) favourite example
 
   - `C-space` to mark a starting
   - Navigate to end
@@ -119,6 +121,14 @@ Type `Ctrl` _and `h`_ and then type `t`.
 - `M-q` formats ("flows") indents a paragraph
 
 - `C-M-\` indents a region in the current language
+
+- Very powerful 'undo' feature
+
+- Rectangular regions (could be a five-mi presentation in itself)
+
+- 'Record' key sequence to 'replay' for ad-hoc automation (ditto)
+
+- Named Register to hold paste-able content or positions (ditto)
 
 ## Resources
 
