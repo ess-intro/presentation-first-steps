@@ -1,8 +1,8 @@
 ---
 author: Dirk Eddelbuettel
 title: First Steps with Emacs
-date: 25 Jan 2021
-institute: Part of the ESS-Intro series
+subtitle: "Part of the ESS-Intro series"
+institute: "`r format(Sys.Date(), 'Incomplete draft dated %d %b %Y')`"
 output: binb::metropolis
 fontsize: 12pt
 classoption: compress
