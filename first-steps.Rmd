@@ -3,9 +3,12 @@ author: Dirk Eddelbuettel
 title: First Steps with Emacs
 subtitle: "Part of the ESS-Intro series"
 institute: "`r format(Sys.Date(), 'Incomplete draft dated %d %b %Y')`"
-output: binb::metropolis
+output:
+  binb::metropolis:
+    incremental: true
 fontsize: 12pt
-classoption: compress
+classoptionFull: compress,aspectratio=169,handout
+classoption: compress,aspectratio=169
 header-includes:
   - |
     ```{=latex}
@@ -20,42 +23,48 @@ header-includes:
 ## Emacs: Getting Started
 
 ::::: {.columns}
-::: {.column width="70%"}
+::: {.column width="60%"}
 
 \bigskip
 
 ### The Perception of Emacs
+
+. . .
 
 \bigskip
 
 ![](images/emacs_organ.jpeg)
 
 :::
-::: {.column width="30%"}
+::: {.column width="40%"}
 
 \small
 
+. . .
+
 ### Intimidated?
 
-\medskip
+. . .
 
-Decades of history.
+- Decades of history.
 
-Bazillion tutorials.
+- Bazillion tutorials.
 
-_Opinionated_ views.
+- _Opinionated_ views.
 
 \medskip 
 
+. . .
+
 ### But fear not!
 
-\medskip
+. . .
 
-_Incremental use_ works.
+- _Incremental use_ works.
 
-Learn a few steps. Master them.
+- Learn a few steps. Master them.
 
-Learn some more.
+- Learn some more.
 
 
 
@@ -67,12 +76,12 @@ Learn some more.
 
 
 ::::: {.columns}
-::: {.column width="75%"}
+::: {.column width="55%"}
 
 ![](images/emacs_tutorial.png)
 
 :::
-::: {.column width="25%"}
+::: {.column width="45%"}
 
 ### A really good builtin resource
 
@@ -99,6 +108,8 @@ Type `Ctrl` _and `h`_ and then type `t`.
 
 ### Key Advantages
 
+. . .
+
 - Particular uses _carry from one mode to another_
 
 - There are too many to enumerate but ...
@@ -115,6 +126,8 @@ Type `Ctrl` _and `h`_ and then type `t`.
 ## Emacs: Editing
 
 ### More Key Advantages
+
+. . .
 
 - Indentation is always sensitive to the programming language
 
