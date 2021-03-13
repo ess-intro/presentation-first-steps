@@ -52,7 +52,7 @@ header-includes:
 
 - _Opinionated_ views.
 
-\medskip 
+\smallskip 
 
 . . .
 
@@ -76,26 +76,25 @@ header-includes:
 
 
 ::::: {.columns}
-::: {.column width="55%"}
+::: {.column width="50%"}
 
 ![](images/emacs_tutorial.png)
 
 :::
-::: {.column width="45%"}
+::: {.column width="50%"}
 
-### A really good builtin resource
+### A really good \alert{builtin} resource
 
-\bigskip
+\medskip
 
-The Emacs Tutorial
+. . .
 
-\bigskip
-
-`C-h t`
-
-\bigskip
-
-Type `Ctrl` _and `h`_ and then type `t`.
+- The Emacs Tutorial
+  - just hit `C-h t`
+  - ie type `Ctrl` _and `h`_, then type `t`.
+- Covers a lot of the basis
+- Worth spending some time with
+- And revisiting
 
 \medskip
 
@@ -110,7 +109,8 @@ Type `Ctrl` _and `h`_ and then type `t`.
 
 . . .
 
-- Particular uses _carry from one mode to another_
+- Particular uses _carry from one mode to another_ for (essentially)
+  all forms of text
 
 - There are too many to enumerate but ...
 
@@ -125,7 +125,7 @@ Type `Ctrl` _and `h`_ and then type `t`.
 
 ## Emacs: Editing
 
-### More Key Advantages
+### More Key Advantages (via Somewhat Random Personal Selection)
 
 . . .
 
