@@ -2,13 +2,13 @@
 author: Dirk Eddelbuettel
 title: First Steps with Emacs
 subtitle: "Part of the ESS-Intro series"
-institute: "`r format(Sys.Date(), 'Incomplete draft dated %d %b %Y')`"
+institute: "`r format(Sys.Date(), 'This version is dated %d %b %Y')`"
 output:
   binb::metropolis:
-    incremental: true
+    incremental: false
 fontsize: 12pt
-classoptionFull: compress,aspectratio=169,handout
-classoption: compress,aspectratio=169
+classoption: compress,aspectratio=169,handout
+classoptionFull: compress,aspectratio=169
 header-includes:
   - |
     ```{=latex}
